@@ -1,0 +1,19 @@
+{
+  "name": "curso-de-vite.js-2022",
+  "version": "1.0.0",
+  "description": "Curso de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaleedGutierrez/Curso-de-Vite.js-2022.git"
+  },
+  "author": "Galeed Gutierrez <galeedeveloper@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GaleedGutierrez/Curso-de-Vite.js-2022/issues"
+  },
+  "homepage": "https://github.com/GaleedGutierrez/Curso-de-Vite.js-2022#readme"
+}
