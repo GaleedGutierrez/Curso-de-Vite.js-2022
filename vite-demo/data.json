@@ -1,0 +1,9 @@
+{
+    "user": {
+        "name": "Galeed",
+        "lastName": "Gutierrez"
+    },
+    "session": {
+        "id": "string session"
+    }
+}
