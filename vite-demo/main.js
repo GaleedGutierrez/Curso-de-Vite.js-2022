@@ -6,7 +6,10 @@ import { setupCounter } from './counter.js'
 import img from './gopher-golang.png'
 import imageStyles from './image.module.css'
 import {user} from './data.json'
+import suma from './suma.ts'
 
+
+console.log(`La suma de 2+3 es: ${suma(2,3)}`);
 const MODULES = import.meta.glob('./modules/*.js')
 console.log(MODULES);
 
