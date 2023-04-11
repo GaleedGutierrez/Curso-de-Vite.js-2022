@@ -3,6 +3,8 @@ import buttonStyles from './button.module.css'
 import javascriptLogo from './javascript.svg'
 import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
+import img from './gopher-golang.png'
+import imageStyles from './image.module.css'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -19,10 +21,12 @@ document.querySelector('#app').innerHTML = `
     <p class="read-the-docs">
       Click on the Vite logo to learn more
     </p>
+    <img id="img" />
   </div>
 `;
 
-document.getElementById('counter').className = buttonStyles.btn;
-
-
 setupCounter(document.querySelector('#counter'))
+document.getElementById('counter').className = buttonStyles.btn;
+const IMAGEN = document.getElementById('img')
+IMAGEN.src = img;
+IMAGEN.className = imageStyles.img;
