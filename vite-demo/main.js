@@ -7,6 +7,14 @@ import img from './gopher-golang.png'
 import imageStyles from './image.module.css'
 import {user} from './data.json'
 
+const MODULES = import.meta.glob('./modules/*.js')
+console.log(MODULES);
+
+for (const PATH in MODULES) {
+  MODULES[PATH]().then((module) => {
+    module.load()
+  })
+}
 document.querySelector('#app').innerHTML = `
   <div>
     <a href="https://vitejs.dev" target="_blank">
