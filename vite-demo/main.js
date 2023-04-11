@@ -5,6 +5,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import img from './gopher-golang.png'
 import imageStyles from './image.module.css'
+import {user} from './data.json'
 
 document.querySelector('#app').innerHTML = `
   <div>
@@ -22,6 +23,7 @@ document.querySelector('#app').innerHTML = `
       Click on the Vite logo to learn more
     </p>
     <img id="img" />
+    <pre>${JSON.stringify(user)}</pre>
   </div>
 `;
 
